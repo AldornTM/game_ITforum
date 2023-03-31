@@ -17,6 +17,7 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"Timeline1","order":2,"path":"timelines/Timeline1/Timeline1.yy",},
     {"name":"Sound1","order":1,"path":"sounds/Sound1/Sound1.yy",},
   ],
 }
