@@ -9,6 +9,5 @@ ySpeed = 0;
 
 
 //текстура персонажа выше остальных текстур
-depth =-10;
-
+depth = y;
 game_paused = false;

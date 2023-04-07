@@ -19,30 +19,30 @@ if(keyboard_check(vk_left) || A)
     //sprite_index = Character_SprintLeft;
     image_speed = 1;
 }
-if(keyboard_check(vk_up) || W)
-{
-    phy_position_y -= movespeed;
+//if(keyboard_check(vk_up) || W)
+//{
+    //phy_position_y -= movespeed;
     //sprite_index = Character_Climb;
-    image_speed = 1;
-}
-if(keyboard_check(vk_down) || S)
-{
-    phy_position_y += movespeed;
+    //image_speed = 1;
+//}
+//if(keyboard_check(vk_down) || S)
+//{
+//    phy_position_y += movespeed;
     //sprite_index = Character_Climb;
-    image_speed = 1;
-}
+//    image_speed = 1;
+//}
 if(keyboard_check(vk_right) || D) phy_position_x += movespeed;
 if(keyboard_check(vk_left) || A) phy_position_x -= movespeed;
-if(keyboard_check(vk_up) || W) phy_position_y -= movespeed;
-if(keyboard_check(vk_down) || S) phy_position_y += movespeed;
+//if(keyboard_check(vk_up) || W) phy_position_y -= movespeed;
+//if(keyboard_check(vk_down) || S) phy_position_y += movespeed;
 
 if(keyboard_check(vk_shift))
 {
-	movespeed = 3.5;
+	movespeed = 3;
 }
 else
 {
-	movespeed = 2;
+	movespeed = 1.5;
 }
 
 if(keyboard_check_pressed(ord("C"))){
