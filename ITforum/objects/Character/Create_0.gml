@@ -3,11 +3,12 @@
 event_inherited();
 hp = 7;
 
-movespeed = 2;
+movespeed = 1.5;
 xSpeed = 0;
 ySpeed = 0;
 
-
+depth = +10
 //текстура персонажа выше остальных текстур
-depth = y;
+
+
 game_paused = false;
